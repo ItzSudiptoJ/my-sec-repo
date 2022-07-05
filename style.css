@@ -1,0 +1,38 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+span {
+    color: orange;
+}
+
+.welcome-sec {
+    display: flex;
+}
+
+.half-width {
+    width: 50%;
+    padding-left: 50px;
+}
+
+#first-image {
+    width: 500px;
+    height: 500px;
+}
+
+.head1 {
+    font-size: 50px;
+}
+
+.head2 {
+    font-size: 40px;
+}
+
+div li a {
+    text-decoration: none;
+    background-image: linear-gradient(orangered, orange);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: aliceblue;
+    font-weight: 800;
+}
