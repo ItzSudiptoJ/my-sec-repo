@@ -62,3 +62,7 @@ p {
 .expe-half {
     display: flex;
 }
+
+.box-sha {
+    box-shadow: 0 8px 8px -4px lightblue;
+}
