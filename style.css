@@ -1,5 +1,6 @@
 body {
     font-family: 'Poppins', sans-serif;
+    margin: 0 auto;
 }
 
 span {
@@ -8,16 +9,18 @@ span {
 
 .welcome-sec {
     display: flex;
+    background-image: url(image/top-banner.png);
+    background-repeat: no-repeat;
+    padding-bottom: 100px;
 }
 
 .half-width {
-    width: 50%;
-    padding-left: 50px;
+    width: 40%;
+    padding-left: 5%;
 }
 
-#first-image {
-    width: 500px;
-    height: 500px;
+.welcome-sec img {
+    width: 100%;
 }
 
 .head1 {
@@ -28,11 +31,34 @@ span {
     font-size: 40px;
 }
 
-div li a {
+p {
+    padding-bottom: 20px;
+}
+
+.hire {
     text-decoration: none;
     background-image: linear-gradient(orangered, orange);
     padding: 10px 40px;
     border-radius: 5px;
     color: aliceblue;
     font-weight: 800;
+}
+
+.dream-big {
+    display: flex;
+    padding-bottom: 100px;
+}
+
+.dream-big img {
+    width: 100%;
+}
+
+.dream-big {
+    background-image: url(image/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.expe-half {
+    display: flex;
 }
