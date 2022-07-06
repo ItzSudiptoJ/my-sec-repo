@@ -24,6 +24,10 @@ body {
     padding-right: 10%;
 }
 
+span {
+    color: orangered;
+}
+
 .top-p {
     padding-left: 20%;
     padding-right: 20%;
@@ -152,11 +156,14 @@ hr {
     text-align: center;
     margin-left: 20%;
     margin-right: 20%;
+    padding-bottom: 50px;
 }
 
 .contact-flex {
     background-color: palevioletred;
+    border-radius: 5px;
     height: 80px;
+    padding: 10px 10px;
 }
 
 #mail {
@@ -165,9 +172,21 @@ hr {
 
 #sub {
     width: 100px;
-    height: 35px;
+    height: 38px;
     margin-left: -4px;
-    margin-top: 1px;
+    margin-top: 5px;
     background-color: orange;
     border-radius: 5px;
+    font-weight: 700;
+}
+
+.foot-text {
+    text-align: center;
+    background-color: #0B0D17;
+    color: aliceblue;
+    height: 100px;
+}
+
+.foot-text h3 {
+    padding-top: 20px;
 }
