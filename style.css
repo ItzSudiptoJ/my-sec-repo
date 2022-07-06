@@ -152,6 +152,37 @@ hr {
     padding-top: 50px;
 }
 
+
+/*article area strat*/
+
+.article-flex {
+    display: flex;
+}
+
+.article1 {
+    height: 700px;
+    width: 400px;
+    background-color: gray;
+    margin: 3%;
+    box-shadow: 10px 10px 10px 10px gray;
+}
+
+.article1 img {
+    width: 380px;
+    height: 300px;
+}
+
+.article1 h3,
+p {
+    padding: 5px 5px;
+}
+
+
+/*article area end*/
+
+
+/*contaact area strat*/
+
 .contact-area {
     text-align: center;
     margin-left: 20%;
